@@ -3,6 +3,7 @@ body {
     text-align: center;
     background-image: url("images/casino-table.jpg");
     background-size: cover;
+
 }
 
 button {
@@ -16,6 +17,12 @@ button {
     font-weight: bold;
 }
 
+button:hover {
+    background-color: #ca7225;
+    color: aliceblue;
+    transition: 0.75s ease-in-out;
+    cursor: pointer;
+}
 
 div {
     width: 500px;
