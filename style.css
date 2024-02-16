@@ -1,33 +1,32 @@
 body {
-    font-family: "Barriecito", system-ui, Arial, Helvetica, sans-serif;
-    text-align: center;
     background-image: url("images/casino-table.jpg");
     background-size: cover;
-
+    font-family: "Barriecito", system-ui, Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 button {
     background: #ffc518;
     border: none;
     border-radius: 5px;
-    padding: 10px 15px;
     color: #036d43;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: bold;
+    padding: 10px 15px;
 }
 
 button:hover {
     background-color: #ca7225;
+    cursor: pointer;
     color: aliceblue;
     transition: 0.75s ease-in-out;
-    cursor: pointer;
 }
 
 div {
-    width: 500px;
     height: 100px;
     margin: 0 auto;
+    width: 500px;
 }
 
 h2 {
@@ -42,6 +41,6 @@ p {
 }
 
 p {
-    font-size: 38px;
     color: #e8e3e3f1;
+    font-size: 38px;
 }
